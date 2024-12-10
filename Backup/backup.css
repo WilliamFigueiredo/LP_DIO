@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    .roboto-thin {
+        font-family: "Roboto", serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .roboto-light {
+        font-family: "Roboto", serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .roboto-regular {
+        font-family: "Roboto", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .roboto-medium {
+        font-family: "Roboto", serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .roboto-bold {
+        font-family: "Roboto", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .roboto-black {
+        font-family: "Roboto", serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .roboto-thin-italic {
+        font-family: "Roboto", serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .roboto-light-italic {
+        font-family: "Roboto", serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .roboto-regular-italic {
+        font-family: "Roboto", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .roboto-medium-italic {
+        font-family: "Roboto", serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .roboto-bold-italic {
+        font-family: "Roboto", serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .roboto-black-italic {
+        font-family: "Roboto", serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
+    
+    
+      
+    }
+    
+    
+    /* AQUI VAI ATÉ O LOGO E OS ELEMENTOS */
+    
+    
+    
+    
+    
+    body {
+    
+    background-color: black;
+    
+      
+    }
+    
+    .article {
+    
+    
+    width: 100%;
+    height: 50vh;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 150px;
+    
+    margin-bottom: 150px;
+    padding-top: 800px
+    
+    ;
+    
+    
+    
+    
+    
+    
+    }
+    
+    .image-logo-dio {
+    
+    width: 248px;
+    height: 214px;
+    
+    margin-top: 27px;
+    
+    }
+    
+    .bola-preta {
+    
+      background-color: rgba(1, 14, 39, 0.9);
+      width: 268px;
+      height: 268px;
+      border-radius: 50%;
+      opacity: 80%;
+    
+     
+    
+    
+    
+      z-index: -1;
+      position: absolute;
+      }
+    
+    .container-logo {
+    
+    
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: top;    /* Centraliza verticalmente */
+    margin-bottom: 30px;
+    
+    
+    
+    
+    
+    
+    }
+    
+    /* AQUI COMEÇA O H1, MAS TAMBÉM TEM OS LOGOS (TUDO DENTRO DE UM CONTAINER) */
+    
+    
+    
+    h1 {
+    
+        font-family: Raleway;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 46.96px;
+    
+        margin-top: 16px;
+        margin-bottom: 20px;
+      
+    
+        
+        background-image: linear-gradient(to bottom, #33A8DB,  #1472B7 );
+        -webkit-background-clip: text;
+        color: transparent
+    }
+    
+    .A-nova-trilha1 {
+    
+        font-family: Raleway;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        line-height: 24px;
+    
+        
+    
+    
+    
+    }
+    
+    
+    .container-article {
+    
+    
+    
+    
+    
+      width: 510px;
+      height: 393px;
+    text-align: center;
+    
+    padding-bottom: 24px;
+    margin-bottom: 20px;
+    
+    }
+    
+    
+    /* AQUI ACABOU OS CONTAINERS INICIAIS E TEM O BOTÃO DE QUERO ME INSCREVER, BORDA E HOOVER */
+    
+    
+    
+    .borda-quero-me-inscrever {
+    
+    width: 326px;
+    height: 57px;
+    
+    border: 2px solid transparent;
+    background-color: transparent;
+    text-align: center;
+    
+    border-image: linear-gradient(to right, #3BA1CD, #1572B7) 1;
+    margin-top: 23px;
+    margin-bottom: 100px;
+    
+    padding: 15px;
+    
+    }
+    
+    
+    
+    .botao-quero-me-inscrever {
+    
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 18px;
+        letter-spacing: 0.21em;
+        color: #31A8DD;
+        
+    
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center;    /* Centraliza verticalmente */
+        height: 100%;           /* Garante que o link preencha a altura da div */
+    
+        display: inline-block;
+        text-decoration-line: none;
+    
+    }
+    
+    .botao-quero-me-inscrever:hover {
+    
+    color: #8ad5f5;
+    
+    
+    }
+    
+    
+    .backgrounddegrade {
+    
+      width: 1440px;
+      height: 50vh;
+      position: absolute;
+      background-image: linear-gradient(to bottom, rgba(2, 104, 152, 0.347), rgba(0, 0, 0, 1));
+    
+      mix-blend-mode:difference;
+        z-index: -1;
+     
+        overflow: hidden
+    
+    }
+    .backgroumdum {
+    
+    width: 1440px;
+    height: 732px;
+    position: absolute;
+    z-index: -2;
+    opacity: 10%;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    /* PARTE 2 DO SITE*/
+    
+    
+    
+    section {
+    
+      width: 100%;
+      height: 60vh;
+      
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start
+    
+    
+    
+    }
+    
+    .linha-de-divisão {
+    
+      width: 100%;
+      margin-top: 30px;
+      
+    
+      
+    
+     
+      
+    
+      border-bottom: 1px solid #33A8DB
+    }
+    
+    
+    .margem2 {
+    
+      width: Hug (792px)px;
+      height: Hug (325px)px;
+      gap: 24px;
+      opacity: 0px;
+      
+      margin-top: 80px;
+    
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+      justify-content: flex-start;
+      
+      /* background-color: pink; */
+    }
+    
+    
+    
+    h2 { 
+    
+      font-family: Raleway;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 37.57px;
+      letter-spacing: 0.09em;
+      
+      
+      
+      color: #33A8DB;
+    
+    
+     
+    
+    
+    }
+    
+    .temos-tres-modulos2 {
+    
+      font-family: Raleway;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 18.78px;
+      
+    
+     
+      color: #ffff;
+    
+      
+    
+    
+      
+    
+    }
+    
+    
+    
+    .módulo1-texto {
+    
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    
+    color: #ffff;
+    
+    }
+    
+    .modulo1-borda {
+    
+    
+    width: 650px;
+    height: 51px;
+    padding: 16px 2px 16px 2px;
+    gap: 10px;
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    opacity: 0px;
+    
+    justify-content: center;
+    
+    
+    
+    display: flex;
+    
+    background-color: #252525;
+    
+    
+    }
